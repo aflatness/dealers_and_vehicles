@@ -4,11 +4,7 @@ let id, vehicles;
 let answer, dealers = [];
 
 (async function () {
-  await controllers.getDatasetId()
-    .then(({ data }) => {
-      id = data.datasetId
-    })
-    .catch(console.log);
+  id = await controllers.getDatasetId()
 
   const vehicleIds = await controllers.getVehicles(id);
 

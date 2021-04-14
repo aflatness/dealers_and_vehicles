@@ -4,12 +4,16 @@
   "description": "Dealers and Vehicles",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test.js",
     "start": "node src/index.js"
   },
   "author": "Alec Flatness <aflatness@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
   }
 }
