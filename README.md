@@ -5,9 +5,9 @@
 Dealers and Vehicles is a program that retrieves vehicle data across multiple dealer lots, through the use of Cox Automotive API, then posts the results to an Cox Automotives API endpoint.
 
 ### Built With
-[axios](https://www.npmjs.com/package/axios)
-[Mocha](https://mochajs.org/)
-[Chai](https://www.chaijs.com/)
+* [Axios](https://www.npmjs.com/package/axios)
+* [Mocha](https://mochajs.org/)
+* [Chai](https://www.chaijs.com/)
 
 ## Get Started
 To get a local copy running, Node and NPM are required
